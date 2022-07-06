@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T13:01:17.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="W0nG7jHcvuVx318PDABQ" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T13:06:29.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="swfCIun6DcOWe5SGi9wn" version="20.0.4" type="github">
   <diagram id="GbBGKb9tnHMdAl_LOO8C" name="Page-1">
     <mxGraphModel dx="1022" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           <mxGeometry y="30" width="160" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qCpUqsjQQw8mV_FC2zz1-6" value="Plat Recette" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="334" y="250" width="160" height="70" as="geometry" />
+          <mxGeometry x="350" y="270" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="qCpUqsjQQw8mV_FC2zz1-7" value="+IDPlat&#xa;+IDRecette&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="qCpUqsjQQw8mV_FC2zz1-6">
           <mxGeometry y="30" width="160" height="40" as="geometry" />
