@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T14:47:39.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.0.4" etag="a_03Cf8YWg3r7OeCcNgu" type="github"><diagram id="wzFA_0U2NE2IEe7xE_vn">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-06T14:56:56.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="52xXGiwf_dXdFnoiN772" version="20.0.4" type="github">
+  <diagram id="wzFA_0U2NE2IEe7xE_vn" name="Page-1">
+    <mxGraphModel dx="1022" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-1" value="Etidiant" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="110" y="70" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-2" value="+IDEtudiant&#xa;+Nom&#xa;+Prenom&#xa;+Adresse&#xa;    Rue&#xa;    N°&#xa;    Code Postal&#xa;    Ville&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RxPTjsQ5nYk5f1rLBUyk-1">
+          <mxGeometry y="30" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-3" value="Cours" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="310" y="70" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-4" value="+IDCours&#xa;+Intitulé&#xa;+Description" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RxPTjsQ5nYk5f1rLBUyk-3">
+          <mxGeometry y="30" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-5" value="Proffesseur" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="70" width="160" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-6" value="+IDProffesseur&#xa;+Titre&#xa;+Nom&#xa;+Prenom&#xa;+Adresse&#xa;    Rue&#xa;    N°&#xa;    Code Postal&#xa;    Ville" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RxPTjsQ5nYk5f1rLBUyk-5">
+          <mxGeometry y="30" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-7" value="Filière" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="330" y="290" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RxPTjsQ5nYk5f1rLBUyk-8" value="+IDFilière&#xa;+Nom&#xa;+Code" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="RxPTjsQ5nYk5f1rLBUyk-7">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
