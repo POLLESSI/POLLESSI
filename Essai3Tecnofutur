@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T13:51:33.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kMxJ8qB7-mKXwYcQaDsS" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T14:20:22.186Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="OvH54qHcE-2nUx161R04" version="20.0.4" type="github">
   <diagram id="3wOXiEoVaQ2Wjn73Jr00" name="Page-1">
     <mxGraphModel dx="1022" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,16 +11,22 @@
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="x5m_5PHXYiPFsUtS8UUI-3" value="Edition" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="350" y="60" width="160" height="120" as="geometry" />
+          <mxGeometry x="350" y="60" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="x5m_5PHXYiPFsUtS8UUI-4" value="+IDEdition&#xa;+Nom&#xa;+Date&#xa;+Prix&#xa;+Primé?" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="x5m_5PHXYiPFsUtS8UUI-3">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-4" value="+IDEdition&#xa;+Nom&#xa;+Date&#xa;+Prix" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="x5m_5PHXYiPFsUtS8UUI-3">
+          <mxGeometry y="30" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="x5m_5PHXYiPFsUtS8UUI-5" value="" style="endArrow=none;html=1;rounded=0;exitX=1.013;exitY=0.122;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.006;entryY=0.144;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="x5m_5PHXYiPFsUtS8UUI-2" target="x5m_5PHXYiPFsUtS8UUI-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="330" y="350" as="sourcePoint" />
             <mxPoint x="490" y="350" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-6" value="PrixLitérères" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="610" y="60" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-7" value="+IDPrixLiterere&#xa;+Nom&#xa;+Date" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="x5m_5PHXYiPFsUtS8UUI-6">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
