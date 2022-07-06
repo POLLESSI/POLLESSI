@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-06T14:42:33.549Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="6gMbfZoK1A85oMrCaJR3" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-06T14:46:07.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="kwmKSd0RrCnJPamFrSWA" version="20.0.4" type="github">
   <diagram id="3wOXiEoVaQ2Wjn73Jr00" name="Page-1">
     <mxGraphModel dx="1022" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry y="30" width="160" height="130" as="geometry" />
         </mxCell>
         <mxCell id="x5m_5PHXYiPFsUtS8UUI-12" value="Auteur" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="20" y="50" width="160" height="120" as="geometry" />
+          <mxGeometry x="10" y="65" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="x5m_5PHXYiPFsUtS8UUI-13" value="+IDAuteur&#xa;+Nom&#xa;+Prenom&#xa;+Pseudo&#xa;+% des ventes" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="x5m_5PHXYiPFsUtS8UUI-12">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
@@ -87,6 +87,18 @@
         </mxCell>
         <mxCell id="x5m_5PHXYiPFsUtS8UUI-31" value="1, N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="415" y="75" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-32" value="Fait" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="125" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-33" value="Fait" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="607" y="125" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-34" value="Concerne" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="375" y="110" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="x5m_5PHXYiPFsUtS8UUI-35" value="Concerne" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="717" y="225" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
