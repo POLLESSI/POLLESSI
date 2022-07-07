@@ -1,19 +1,31 @@
-<mxfile host="app.diagrams.net" modified="2022-07-07T09:36:43.551Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="NNK44Me88_YppcSgyyRR" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-07T13:03:04.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="ajQCKae48HhizMiH7KA1" version="20.0.4" type="github">
   <diagram id="MOF3zxUblMp6PKXeY2hw" name="Page-1">
     <mxGraphModel dx="865" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jUYXOsgTfcoOpGCnU2r9-1" value="Ouvrier" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="230" width="160" height="120" as="geometry" />
+        <mxCell id="jUYXOsgTfcoOpGCnU2r9-1" value="Technicien" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="334" y="40" width="160" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="jUYXOsgTfcoOpGCnU2r9-2" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jUYXOsgTfcoOpGCnU2r9-1">
-          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        <mxCell id="jUYXOsgTfcoOpGCnU2r9-2" value="+N°Employé&#xa;+Nom&#xa;+Prenom&#xa;+Rue&#xa;+N°&#xa;+C.P.&#xa;+Ville&#xa;+Ref_Bancaire&#xa;+Salaire&#xa;+Service&#xa;+Prix Heures suplémentaires&#xa;+Machine" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jUYXOsgTfcoOpGCnU2r9-1" vertex="1">
+          <mxGeometry y="30" width="160" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="jUYXOsgTfcoOpGCnU2r9-3" value="Cadre" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
-          <mxGeometry x="40" y="390" width="160" height="120" as="geometry" />
+        <mxCell id="jUYXOsgTfcoOpGCnU2r9-3" value="Cadre" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" parent="1" vertex="1">
+          <mxGeometry x="50" y="200" width="160" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="jUYXOsgTfcoOpGCnU2r9-4" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="jUYXOsgTfcoOpGCnU2r9-3">
+        <mxCell id="jUYXOsgTfcoOpGCnU2r9-4" value="+N°Employé&#xa;+Nom&#xa;+Prenom&#xa;+Rue&#xa;+N°&#xa;+C.P.&#xa;+Ville&#xa;+Ref_Bancaire&#xa;+Salaire&#xa;+Service" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" parent="jUYXOsgTfcoOpGCnU2r9-3" vertex="1">
+          <mxGeometry y="30" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FTnCYWMgFaGunZpSJvf0-1" value="Administratif" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="640" y="360" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="FTnCYWMgFaGunZpSJvf0-2" value="+N°Employé&#xa;+Nom&#xa;+Prenom&#xa;+Rue&#xa;+N°&#xa;+C.P.&#xa;+Ville&#xa;+Ref_Bancaire&#xa;+Salaire&#xa;+Service" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="FTnCYWMgFaGunZpSJvf0-1">
+          <mxGeometry y="30" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FTnCYWMgFaGunZpSJvf0-4" value="Inf_Bancaire" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="50" y="50" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FTnCYWMgFaGunZpSJvf0-5" value="+Ref_Employé&#xa;+Nom Banque&#xa;+Nom Agence&#xa;+Compte_Banquaire" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="FTnCYWMgFaGunZpSJvf0-4">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
